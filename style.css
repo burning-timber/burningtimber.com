@@ -1,0 +1,44 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css);
+@import url("https://fonts.googleapis.com/css?family=Dosis|Material+Icons&display=swap");
+html {
+  font-family: Dosis, sans-serif; }
+
+body {
+  background-image: url("glitter.jpg"); }
+
+.wrap {
+  display: grid;
+  height: 100vh;
+  place-items: center center; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+h2 {
+  color: white;
+  font-size: 2rem; }
+
+nav, .sidenav {
+  background-color: rgba(192, 192, 192, 0.1); }
+
+.sidenav li > a {
+  color: white;
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px; }
+
+.sidenav li > a:hover {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+ul.sidenav.sidenav-fixed li.logo {
+  text-align: center;
+  margin-top: 32px; }
+
+/*# sourceMappingURL=style.css.map */
