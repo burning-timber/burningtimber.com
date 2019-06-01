@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <script src="https://kit.fontawesome.com/10c2d14188.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -35,9 +36,8 @@
   <![endif]-->
 <nav class="hide-on-med-and-up">
   <a href="#" data-target="slide-out" class="sidenav-trigger right">
-    <i class="material-icons">
-      menu
-    </i>
+    <i aria-hidden="true" class="fas fa-bars" title="Menu"></i>
+    <span class="sr-only">Menu</span>
   </a>
 </nav>
 <div class="wrap">
@@ -54,16 +54,19 @@
         </li>
         <li>
           <a class="waves-effect" href="/">
+            <i aria-hidden="true" class="fas fa-home"></i>
             Home
           </a>
         </li>
         <li>
           <a class="waves-effect" href="">
+            <i aria-hidden="true" class="fas fa-question-circle"></i>
             About
           </a>
         </li>
         <li>
           <a class="waves-effect" href="">
+            <i aria-hidden="true" class="fab fa-discord"></i>
             Discord
           </a>
         </li>
@@ -71,11 +74,11 @@
   </header>
 </div><!-- /wrap -->
 
-  <script>
+  <!--<script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>-->
 </body>
 
 </html>
